@@ -1,0 +1,148 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imgLogo{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.meio h1{
+    color: #2a4479;
+}
+
+.btnNormal{
+    border: none;
+    color: #000000;
+    padding: 0px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btnMaster{
+    background-color: #2196F3;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+}
+.btnMaster:hover{
+    transition: color black 0.5s;
+    background-color: #105892;
+}
+
+hr {
+    width: 90%;
+    height: 1px;
+    background-color: #1691ca;
+}
+/* Nav */
+
+nav{
+    background-color: #d9e9f1;
+    display: flex;
+}
+
+.separacaoNav{
+    width: 30%;
+}
+
+
+/* Main */
+.img{
+    padding: 14px 10px;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+}
+
+.conteudo01{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.conteudo{
+    display: flex;
+}
+.meio{
+    /* margin-left: 5%; */
+    margin-right: 10%;
+    
+}
+
+.quaseMeioCinza, .meio, .conteinerAzul, footer, nav, .baixoHr{
+    padding: 3% 6%;
+}
+
+.conteinerAzul{
+    background-color: #2a4479;
+    text-align: center;
+    color: #f0f3f5;
+}
+.conteinerAzul img{
+    max-width: 100%;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.quaseMeioCinza{
+    background-color: #e3ebf1;
+}
+
+.img img{
+    max-width:15vh;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+
+.quaseMeioCinza{
+    text-align: center;
+}
+
+.quaseMeioCinza img{
+    max-width: 100%;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+
+/* footer */
+.conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.lado01  .imgDiferente{
+    max-width: 100%;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+.lado01{
+    margin-right: 2%;
+}
+
+.lado02 p, .lado03 p, .lado04 p{
+    cursor: pointer;
+}
+
+.baixoHr{
+    text-align: center;
+}
